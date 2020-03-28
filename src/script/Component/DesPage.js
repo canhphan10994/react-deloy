@@ -29,7 +29,7 @@ class DesPage extends React.Component {
             <BillProvider>
               <ButtonProvider>
                 <div className="desPage">
-                  <BrowserRouter>
+                  <BrowserRouter basename={process.env.PUBLIC_URL}>
                     <header>
                       <TopNav />
                       <Menu />
